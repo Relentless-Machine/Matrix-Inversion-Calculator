@@ -121,7 +121,7 @@ class MatrixInputApp:
                 ]
 
             self.result_text.delete(1.0, tk.END)
-            self.result_text.insert(tk.END, f"Inverse Matrix:\n")
+            self.result_text.insert(tk.END, "Inverse Matrix:\n")
 
             for row in inverse_elements_formatted:
                 row_str = [f"{element}" for element in row]
